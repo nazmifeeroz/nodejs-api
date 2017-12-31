@@ -1,18 +1,20 @@
-Build a Node.js API in Under 30 Minutes
+# Build a Node.js API in Under 30 Minutes
 Node.js can be intimidating to beginners. But its flexible structure and lack of strict guidelines makes it seem more complicated than it is.
 
 This tutorial is a quick and simple guide to Node.js, the Express framework, and MongoDB, focusing on the fundamental REST routes and basic database interaction. You’ll build a simple API boilerplate that can then be used as the foundation for any app.
 
-Who This Tutorial Is For: You should have a basic understanding of REST APIs and CRUD operations, plus basic JavaScript knowledge. I use ES6 (mainly fat-arrow functions), but nothing too complex.
+**Who This Tutorial Is For:** You should have a basic understanding of REST APIs and CRUD operations, plus basic JavaScript knowledge. I use ES6 (mainly fat-arrow functions), but nothing too complex.
 
 For this tutorial, you’ll create the skeleton of a back-end for a note-taking application — think Google Keep. You want to be able to do all four CRUD actions on your notes: create, read, update, and delete.
 
-Setting Up
+# Setting Up
 If you don’t have Node installed, see here.
 
 In a new directory, run npm init, and follow along with the prompts, giving your app the name of ‘notable’ (or whatever else you might like).
 
+```shell
 npm init
+```
 Once that’s done, you should have a package.json ready to go in your directory. This means you can start installing the dependencies you need for your project.
 
 You’re going to use Express as your framework, MongoDB as the database, and a package called body-parser to help deal with JSON requests.
